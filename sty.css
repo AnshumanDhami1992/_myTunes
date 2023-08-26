@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{font-family:'PT Sans', sans-serif;
+   background-image:  url("wallpaperflare-cropped (1).jpg");
+
+
+  background-repeat: no-repeat;
+  background-size:100% 17%;} 
+
+ 
+/* =================================================CSS FOR NAV BAR===============================*/
+nav {
+    height: 42px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(51, 34, 34);
+    position: fixed;
+   
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  nav li {
+    display: inline;
+  float: left;
+  font-size: 17px;
+  font-family: 'Muli', sans-serif;
+  }
+  nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 0px 14px;
+    color: #eee;
+    text-decoration: none;
+  }
+  nav li:hover {
+    background-color: #444;
+  }
+  nav a#openup {
+    display: none;
+  }
+
+
+  /* -------------------------------------------- CSS FOR CONTAINER NAV------------------------------------- */
+
+  .container_nav{
+    width: 100%;
+    height: 50px;
+  }
+  
+  #word{
+    font-size: 50px;
+    margin-left: 45%;
+    margin-top: 10%;
+    font-weight: bolder;
+    word-wrap: normal;
+    cursor:pointer;
+  }
+  /* =================================================== CSS FOR MAIN_SECTION 1=============================================*/
+  .main_section1{ width: 100%;
+    height: 600px;
+   
+   
+   
+
+  }
+
+  .main_section1 > h1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .main_section1 > h2  {
+    color: white; 
+    text-align: center;
+  }
+
+  /* ==============================================CSS FOR MAIN SECTION_2============================= */
+
+
+
+  .main_section2{
+    width: 100%;
+    height: 80%;
+    background-color:#201e1e;
+  }
+  
+  .main_section2 > h1{
+    color: white;
+    text-align: center;
+  }
+  .main_section2 >h2{font-size:35px ;
+    text-align: center;
+  }
+  .main_section2 > p{font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .main_section2 > button{margin: 5% 42% 0% ;
+   font-size: 20px;
+    padding: 1.3rem;
+    color:white;
+    background-color:rgba(255, 0, 0, 0.692);
+  }
+
+  .main_section2 > button:hover{cursor: pointer;
+    background-color:  red;
+
+  }
+  .image{position: relative;
+    top: 10%;
+    background-image: url("");
+  }
+
+  /* ------------------------------CODE FOR SMALL SCREEN -------------*/
+  
+  @media screen and (max-width: 600px) {
+  .main_section2 >  button {
+
+    margin: 8% 5% 5% 30%;
+      
+    }
+  }
+
+
+
+/* =================================================CSS FOR MAIN_SECTION3============================================================*/
+
+  .main_section3{
+    width: 100%;
+    height: 1300px;
+    
+  }
+  .main_section3 > h1{ color:#333;
+    text-align: center;
+   margin: 5% 8%;
+  }
+  .main_section3 > p {text-align: center;
+    font-size: 23px;
+    color: #201e1ee1;
+    margin: 0px 6% 0%;
+  }
+  .main_section3 > button {margin-top: 3%;
+    margin-left: 48%;
+    background-color: navy;
+    color: white;
+    padding: 18px;
+  }
+
+.main_section3 > button:hover{cursor: pointer;
+background-color: rgba(0, 0, 128, 0.863);
+}
+
+/* ------------------------CODE FOR SMALL SCREEN------------ */
+
+@media screen and (max-width: 600px) {
+  .main_section3 {
+    height: 900px;
+  }
+}
+
+
+  /* =========================================================CSS FOR MAIN_SECTION4============================= */
+
+.main_section4{
+  background-image: url("https://cdn.pixabay.com/photo/2019/10/01/19/48/milky-way-4519207_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.main_section4 >h1{text-align: center;
+  padding: 5%;
+  color: white;
+;
+  
+}
+
+.main_section4 > p {text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 0% 10% 0% 10%;
+}
+
+/* ------------------------------------------CODE FOR SMALL SCREEN---------- */
+
+@media screen and (max-width: 600px) {
+  .main_section4 {
+    height: 700px;
+  }
+}
+
+
+/* ===========================================================================CSS FOR MAIN_SECTION5================================== */
+
+.main_section5{
+  width: 100%;
+  height: 500px;
+  display:  flex;
+  justify-content: space-between;
+}
+
+.main_section5 > img {
+  width: 45%;
+  height: 550px;
+  margin-left: 80px;
+}
+
+
+.blink{
+  background: yellow;
+  width: 341px;
+  height: 341px;
+
+}
+
+
+/* ----------------------------------------------------CSS FOR GIFT CARD (SUB_SECTION)------------------------------------------- */
+.sub_section{
+  width: 50%;
+  height: 400px;
+ color: #201e1e;
+  padding: 5%;
+  font-size: 20px;
+}
+
+
+
+
+
+/* -====================================================================CSS FOR FOOTER ======================================*/
+
+.footer{
+  height: 250px;
+  width: 100%;
+  background-color:#201e1e;
+  overflow: hidden;
+}
+
+table{ width: 90%;
+  height: 250px;
+  padding: 50px;
+
+  
+}
+
+
+
+table ,td,a {
+  text-decoration: none;
+  text-align: center;
+  
+color: white;
+
+}
+
+/* ------------------------------------CODE TO HIDE DIV FOR SMALL SCREEN------------------- */
+@media screen and (max-width: 600px) {
+  div.footer {
+    display: none;
+  }
+}
+
+/* ===============================================================CSS FOR FOOTER_END========================== */
+.footer_end{background-color:#333;
+  width: 100%;
+  height: 50px;
+text-align: center;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
